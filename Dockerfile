@@ -2,7 +2,7 @@ FROM google/cloud-sdk:336.0.0-alpine
 
 # Install Ruby and clean the installer cache
 RUN apk --update add --no-cache ruby ruby-json ruby-dev build-base && \
-    gem install bigdecimal slack-ruby-client --no-rdoc --no-ri && \
+    gem install bigdecimal slack-ruby-client --no-document && \
     apk del build-base
 
 # Install kubectl
