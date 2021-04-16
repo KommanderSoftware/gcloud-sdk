@@ -22,7 +22,7 @@ Verify the install
 
 ```bash
 docker run -ti  google/cloud-sdk:latest gcloud version
-Google Cloud SDK 159.0.0
+Google Cloud SDK 336.0.0
 ```
 
 Then, authenticate by running:
